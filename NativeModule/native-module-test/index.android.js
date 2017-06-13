@@ -30,11 +30,7 @@ export default class nativeModuleTest extends Component {
   }
 
   handleSpeech() {
-    ContactModule.writeSpeech().then(result => {
-      this.setState({
-        notes: result
-      })
-    })
+    // Write method to handle speech here
   }
 
   render() {

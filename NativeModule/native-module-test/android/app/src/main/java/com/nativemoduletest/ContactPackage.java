@@ -17,9 +17,8 @@ import java.util.List;
 public class ContactPackage implements ReactPackage{
     @Override
     public List<NativeModule> createNativeModules(ReactApplicationContext reactContext) {
-        return Arrays.<NativeModule>asList(
-            new ContactModule(reactContext)
-        );
+        //Register your module here
+
     }
 
     @Override
