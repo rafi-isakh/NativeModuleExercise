@@ -18,7 +18,7 @@ import {
   NativeModules
 } from 'react-native';
 
-const { ContactModule } = NativeModules;
+const { SpeechToText } = NativeModules;
 const {height, width} = Dimensions.get('window')
 
 export default class nativeModuleTest extends Component {
@@ -31,6 +31,7 @@ export default class nativeModuleTest extends Component {
 
   handleSpeech() {
     // Write method to handle speech here
+    
   }
 
   render() {
